@@ -1,3 +1,18 @@
+Thanks to Kalibr, it is a pretty good job. I calibrated the extrinsic of camera and IMU successfully.
+
+I used a `IDS UI-1221LE-C-HQ` camera and a `Xsens-MTI-G-700` IMU, if you use the same devices, you can see my previous work about the hardware time sync between them (I got the time error is `0.0017s` by Kalibr, and it is accepted).
+
+I put my calibration result in the folder `leather_data`, and the accuracy is error-less.
+
+This is the relative pose between the two sensors.
+![A4](https://github.com/LeatherWang/kalibr/tree/master/leather_data/A4.jpg)
+
+
+and this is the result:
+![A5](https://github.com/LeatherWang/kalibr/tree/master/leather_data/A5.png)
+
+---
+
 ![Kalibr](https://raw.githubusercontent.com/wiki/ethz-asl/kalibr/images/kalibr_small.png)
 
 *Ubuntu 14.04+ROS indigo*: [![Build Status](https://jenkins.asl.ethz.ch/buildStatus/icon?job=kalibr_weekly/label=ubuntu-trusty)](https://jenkins.asl.ethz.ch/job/kalibr_weekly/label=ubuntu-trusty/) *Ubuntu 16.04+ROS kinetic*: [![Build Status](https://jenkins.asl.ethz.ch/buildStatus/icon?job=kalibr_weekly/label=ubuntu-trusty)](https://jenkins.asl.ethz.ch/job/kalibr_weekly/label=ubuntu-xenial/)
