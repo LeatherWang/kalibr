@@ -5,11 +5,13 @@ I used a `IDS UI-1221LE-C-HQ` camera and a `Xsens-MTI-G-700` IMU, if you use the
 I put my calibration result in the folder `leather_data`, and the accuracy is error-less.
 
 This is the relative pose between the two sensors.
-![A4](https://github.com/LeatherWang/kalibr/tree/master/leather_data/A4.jpg)
+
+![A3](https://github.com/LeatherWang/kalibr/raw/master/leather_data/A4.jpg)
 
 
 and this is the result:
-![A5](https://github.com/LeatherWang/kalibr/tree/master/leather_data/A5.png)
+
+![A5](https://github.com/LeatherWang/kalibr/raw/master/leather_data/A5.png)
 
 ---
 
